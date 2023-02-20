@@ -33,7 +33,14 @@ h1 {
     color: #E20000;
     font-size: 36px;
 }
-
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 14px; 
+    color:#282828;
+    font-weight: 300;
+}
 p {
     color: #6a6a6a;
     font-size: 16px;
@@ -53,7 +60,7 @@ p {
 
 .btn-rojo {
     color:white;
-    background-color: #ff4a49;
+    background-color: #E20000;
     text-decoration: none;
     padding: 7px;
     border-radius: 15px;
@@ -68,6 +75,7 @@ p {
     border-radius: 15px;
 }
 
+
 .btn-whatsapp {
     background-color: #370a6d;
     color: white;
@@ -81,7 +89,10 @@ p {
     position: fixed;
     bottom: 0px
 }
-.btn-whatsapp a{
+#proyectos footer .btn-whatsapp a{
+    color: white;
+}
+#sobre-mi footer .btn-whatsapp a{
     color: white;
 }
 #contacto, #inicio footer {
@@ -89,13 +100,20 @@ p {
     
 }
 
-#contacto footer .fa-github,#inicio footer .fa-github {
+#contacto footer .fa-github{
+    font-size: 30px;
+    color: #E20000;
+   
+}
+#inicio footer .fa-github {
     font-size: 30px;
     color: white;
+    
 }
 
-#contacto footer .fa-linkedin-in,#inicio footer .fa-linkedin-in  {
-    color:#ff4a49;
+
+#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in  {
+    color:#E20000;
     background-color: white;
     font-size: 20px;
     border: 0px;
@@ -111,17 +129,40 @@ p {
     font-weight: 100;
     text-decoration: none;
 }
+
+#sobre-mi footer, #sobre-mi footer a{
+    color:#E20000;
+}
+#sobre-mi footer .fa-github{
+    font-size: 30px;
+    color: #E20000;
+}
+
+#sobre-mi footer .fa-linkedin-in {
+    color: #E20000;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+} 
+
+
 #proyectos footer {
-    color:#ff4a49;
+    color:#E20000;
     
 }
 
 #proyectos footer .fa-github {
     font-size: 30px;
-    color: #ff4a49;
+    color: #E20000;
 }
 #proyectos footer .fa-linkedin-in {
-    color: #ff4a49;
+    color: #E20000;
     background-color: white;
     font-size: 20px;
     border: 0px;
@@ -133,14 +174,14 @@ p {
     margin: 0 8px;
 }
 #proyectos footer a {
-    color: #ff4a49;
+    color: #E20000;
     font-weight: 100;
     text-decoration: none;
 }
 
 
 .cv{
-    background-color: #ff4a49;
+    background-color: #E20000;
     padding: 7px;
     border-radius: 12px;
 }
@@ -171,7 +212,7 @@ p {
     height: 130px;
 }
 .codigo{
-    color: #ff4a49;
+    color: #E20000;
     text-decoration: none;
 }
 #inicio .div-cohete{
@@ -190,7 +231,80 @@ p {
     border-radius: 50px;
     font-weight: 600;
 }
-
+.img-circulo {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 70%;
+}
+.color-gradiente{
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+#experiencia h2, #experiencia h4 {
+    color: #370A6D;
+ }
+ #experiencia h2, #formacion h2 {
+     font-weight: 400;
+     font-size: 24px
+ }
+ #formacion h2, #formacion h4{
+     color: #E20000;
+ }
+ #experiencia h3, #formacion h3{
+     color: #6A6A6A;
+     font-size: 18px;
+     font-weight: 600;
+ 
+ }
+ #experiencia h4, #formacion h4{
+     font-size: 17px;
+     
+ }
+ #experiencia h5, #formacion h5{
+     color: #6A6A6A;
+     font-size: 14px;
+ }
+ .baw {
+    -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+}
+.baw:hover {
+  -webkit-filter: grayscale(100%);
+  filter:grayscale(0%);
+}
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
 @media (max-width: 750px) {/* Para mobile */
 
     #contacto {
